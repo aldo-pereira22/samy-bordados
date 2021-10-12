@@ -1,7 +1,12 @@
 <template>
     <footer id="footer">
-        Samy Bordados &copy; 2021 
-        <p>  Desenvolvido By: Aldo Pereira</p>
+        <div>
+            Samy Bordados &copy; 2021 
+        </div>
+        <div>
+
+        <p>  Desenvolvido por: <strong> Aldo Pereira </strong> </p>
+        </div>
     </footer>
 </template>
 
@@ -16,10 +21,11 @@ export default {
         height: 200px;
         background-color: #222;
         border-top: 4px solid #111;
-        color:#FCBA03;
+        color:#FFD700;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         width: 100%;
     }
 

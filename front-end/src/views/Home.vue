@@ -1,11 +1,17 @@
 <template>
   <div class="main-container">
-    <h1>
-      HOME
-    </h1>
+    <div class="container"></div>
   </div>
 </template>
 
 <script>
-
 </script>
+<style scoped>
+.main-container {
+  background-image: url(../../public/img/background.jpg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center;
+}
+
+</style>

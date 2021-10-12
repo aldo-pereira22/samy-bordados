@@ -15,7 +15,7 @@ export default {
   },
   data(){
     return{
-      logo_src:"/img/logo.jpg",
+      logo_src:"/img/logo1.jpg",
       alt:"Samy-Bordados"
     }
   }
@@ -32,7 +32,7 @@ export default {
 }
 .main-container{
   margin: 50px;
-  min-height: 250px;
+  min-height: 550px;
 }
 
 h1{
