@@ -2,7 +2,10 @@
   
   <div class="container">
 
-    <div class="produtos">
+    <h2>Página Inicial !</h2>
+    <h2>Depoimentos</h2>
+    <h2>Fotos de clientes</h2>
+    <!-- <div class="produtos">
 
       <div class="produto">
       <Avental />
@@ -13,7 +16,7 @@
 
       <Bone />
       </div>
-    </div>
+    </div> -->
 
      <router-view/>
   </div>

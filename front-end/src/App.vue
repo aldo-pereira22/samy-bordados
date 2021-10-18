@@ -1,5 +1,6 @@
 <template>
   <NavBar :logo="logo_src" :alt="app_name" />
+  <!-- <Home /> -->
   <router-view/>
   <Footer />
 </template>
@@ -7,11 +8,13 @@
 <script>
 import NavBar from './components/navbar/NavBar.vue'
 import Footer from './components/footer/Footer.vue'
+// import Home from './views/Home.vue'
 
 export default {
   components:{
     NavBar,
     Footer
+    // Home
   },
   data(){
     return{
