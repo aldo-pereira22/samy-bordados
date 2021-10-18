@@ -1,52 +1,45 @@
 <template>
-  <div class="main-container">
-    <div class="container">
-      <div class="produtos">
+  
+  <div class="container">
+
+    <div class="produtos">
+
       <div class="produto">
-        <router-link to="/avental">
-          <h2>Avental</h2>
-        </router-link>
+      <Avental />
+
       </div>
 
       <div class="produto">
-        <router-link to="">
-          <h2>Bonés</h2>
-        </router-link>
-      </div>
 
-      <div class="produto">
-        <router-link to="">
-          <h2>Infantil</h2>
-        </router-link>
-      </div>
-
-      <div class="produto">
-        <router-link to="">
-          <h2>Uniformes</h2>
-        </router-link>
-      </div>
-      <div class="produto">
-        <router-link to="">
-          <h2>Cartões de visitas</h2>
-        </router-link>
-      </div>
-      <div class="produto">
-        <router-link to="">
-          <h2>Máscaras</h2>
-        </router-link>
-      </div>
-      <div class="produto">
-        <router-link to="">
-          <h2>Toalhas bordadas</h2>
-        </router-link>
-        <router-view />
+      <Bone />
       </div>
     </div>
-    </div>
+
+     <router-view/>
   </div>
+ 
+
 </template>
 
 <script>
+
+import Avental from './Avental.vue'
+import Bone from './Bone.vue'
+// import Bone from './Bone.vue'
+
+
+export default {
+  components:{
+    Avental,
+    Bone
+  },
+  data(){
+    return{
+      logo_src:"/img/logo1.jpg",
+      alt:"Samy-Bordados"
+    }
+  }
+}
 </script>
 <style scoped>
 
@@ -68,6 +61,11 @@
   border: 1px solid #ffd700;
   padding: 20px;
   border-radius: 50px;
+  color: black;
+}
+
+.produto a {
+  color: black;
 }
 
 </style>

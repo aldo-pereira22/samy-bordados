@@ -1,6 +1,7 @@
 <template>
   <div> 
-      <h1>Avental</h1>
+    <router-link to="/avental"> Avental </router-link>
+    <h2>Avental Components</h2>
   </div>
 </template>
 

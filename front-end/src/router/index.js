@@ -16,7 +16,12 @@ const routes = [
   {
     path: '/avental',
     name: 'Avental',
-    component: () => import(/* webpackChunkName: "Produtos" */ '../views/Avental.vue')
+    component: () => import(/* webpackChunkName: "Produtos" */ '../components/produtos/Avental.vue')
+  },
+  {
+    path: '/bone',
+    name: 'Bone',
+    component: () => import(/* webpackChunkName: "Produtos" */ '../components/produtos/Bone.vue')
   }
 ]
 
