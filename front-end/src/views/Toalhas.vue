@@ -1,8 +1,7 @@
 <template>
-  <div class="main-container"> 
-  
-    <h2>Avental Components</h2>
-  </div>
+    <div class="main-container">
+          <h2>Toalhas View</h2>
+    </div>
 </template>
 
 <script>

@@ -15,12 +15,27 @@ const routes = [
   {
     path: '/avental',
     name: 'Avental',
-    component: () => import(/* webpackChunkName: "Produtos" */ '../components/produtos/Avental.vue')
+    component: () => import(/* webpackChunkName: "Produtos" */ '../views/Avental.vue')
   },
   {
-    path: '/bone',
-    name: 'Bone',
-    component: () => import(/* webpackChunkName: "Produtos" */ '../components/produtos/Bone.vue')
+    path: '/uniformes',
+    name: 'Uniformes',
+    component: () => import(/* webpackChunkName: "Produtos" */ '../views/Uniformes.vue')
+  },
+  {
+    path: '/toalhas',
+    name: 'Toalhas',
+    component: () => import(/* webpackChunkName: "Produtos" */ '../views/Toalhas.vue')
+  },
+  {
+    path: '/mascaras',
+    name: 'Mascaras',
+    component: () => import(/* webpackChunkName: "Produtos" */ '../views/Mascaras.vue')
+  },
+  {
+    path: '/cartoes-de-visitas',
+    name: 'CartoesDeVisitas',
+    component: () => import(/* webpackChunkName: "Produtos" */ '../views/CartoesDeVisitas.vue')
   }
 ]
 

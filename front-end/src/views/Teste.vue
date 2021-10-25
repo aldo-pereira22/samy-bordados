@@ -1,7 +1,5 @@
 <template>
-    <router-link to="/bone"> Bone </router-link>
-    <h2>Bone View</h2>
-  
+  <h1>TESTE </h1>
 </template>
 
 <script>

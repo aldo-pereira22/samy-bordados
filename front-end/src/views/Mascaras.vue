@@ -1,6 +1,7 @@
 <template>
-   <router-link to="/bone"> Bone </router-link>
-    <h2>Bonew</h2>
+  <div class="main-container">
+      <h2>Mascaras View</h2>
+  </div>
 </template>
 
 <script>

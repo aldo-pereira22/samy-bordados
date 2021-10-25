@@ -1,10 +1,18 @@
 <template>
-  
-  <div class="container">
+  <div class="main-container">
+    <div class="main">
+      <div class="principal" > <h2>Página Inicial !</h2> </div>
+    
+      <div class="depoimentos"> 
+        <h2>Depoimentos</h2>
+      </div>
 
-    <h2>Página Inicial !</h2>
-    <h2>Depoimentos</h2>
-    <h2>Fotos de clientes</h2>
+    <div class="clientes">
+      <h2>Fotos de clientes</h2>
+    </div>
+
+
+    </div>
     <!-- <div class="produtos">
 
       <div class="produto">
@@ -18,57 +26,41 @@
       </div>
     </div> -->
 
-     <router-view/>
+    <router-view />
   </div>
- 
-
 </template>
 
 <script>
-
-import Avental from './Avental.vue'
-import Bone from './Bone.vue'
+import Avental from "./Avental.vue";
 // import Bone from './Bone.vue'
 
-
 export default {
-  components:{
+  components: {
     Avental,
-    Bone
   },
-  data(){
-    return{
-      logo_src:"/img/logo1.jpg",
-      alt:"Samy-Bordados"
-    }
-  }
-}
+  data() {
+    return {
+      logo_src: "/img/logo1.jpg",
+      alt: "Samy-Bordados",
+    };
+  },
+};
 </script>
 <style scoped>
 
-/* .main-container { */
-  /* background-image: url(../../public/img/background.jpg); */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* background-position: center; */
-/* } */
-
-.produtos {
+.main{
   display: flex;
-}
-.produtos a {
-  text-decoration: none;
-}
-.produto {
-  margin-left: 10px;
-  border: 1px solid #ffd700;
-  padding: 20px;
-  border-radius: 50px;
-  color: black;
-}
+  flex-direction: column;
 
-.produto a {
-  color: black;
 }
-
+.main div {
+  margin: 30px 30px;
+  border-bottom: 1px solid black;
+}
+/* .main-container { */
+/* background-image: url(../../public/img/background.jpg); */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+/* background-position: center; */
+/* } */
 </style>

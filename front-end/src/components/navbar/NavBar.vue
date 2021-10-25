@@ -3,8 +3,13 @@
     <router-link to="/" id="logo_url">
       <img :src="logo" :alt="alt" id="logo" />
     </router-link>
-    <router-link to="/">HOME</router-link>
-    <router-link to="/produtos">PRODUTOS</router-link>
+    <router-link to="/"> <h2> HOME </h2> </router-link>
+    <router-link to="/avental"> <h2> AVENTAIS </h2> </router-link>
+    <router-link to="/uniformes"> <h2> UNIFORMES </h2> </router-link>
+    <router-link to="/toalhas"> <h2> TOALHAS </h2> </router-link>
+    <router-link to="/mascaras"> <h2> MÁSCARAS </h2> </router-link>
+    <router-link to="/cartoes-de-visitas"> <h2> CARTÕES DE VISITAS </h2> </router-link>
+
   </div>
 </template>
 
@@ -32,7 +37,7 @@ export default {
 #logo {
   width: 90px;
   height: 90px;
-  border: 5px solid #ffd700;
+  border: 1px solid black;
 }
 
 #nav a {

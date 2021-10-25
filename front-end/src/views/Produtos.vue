@@ -1,18 +1,16 @@
 
 <template>
 
-  <Teste />
-  <h2>Produtos View</h2>
-    <router-view/>
+<Teste />
 
 </template>
 
 <script>
 import Teste from '../components/teste/Teste.vue'
 export default {
-  components:{
+  components: {
     Teste
-  }
+  },
 };
 </script>
 
